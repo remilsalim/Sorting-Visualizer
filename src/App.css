@@ -154,3 +154,32 @@ body {
   color: white;
   border-radius: 4px;
 }
+
+.personal-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #555577;
+  font-weight: 500;
+}
+
+.personal-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.personal-footer a svg {
+  transition: transform 0.2s;
+}
+
+.personal-footer a:hover svg {
+  transform: scale(1.1) rotate(-10deg);
+}
+
+.personal-footer a:hover {
+  color: var(--secondary-color);
+}
