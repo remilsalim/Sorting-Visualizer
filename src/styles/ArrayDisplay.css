@@ -1,0 +1,43 @@
+.array-display {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  gap: 2px;
+  box-sizing: border-box;
+}
+
+.bar {
+  background: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+  border-radius: 4px 4px 0 0;
+  transition: height 0.1s ease, background-color 0.1s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bar.active {
+  background: linear-gradient(to top, #f093fb 0%, #f5576c 100%);
+  transform: scaleY(1.05);
+  z-index: 1;
+}
+
+.bar.sorted {
+  background: linear-gradient(to top, #43e97b 0%, #38f9d7 100%);
+}
+
+.bar.pivot {
+  background: linear-gradient(to top, #fa709a 0%, #fee140 100%);
+}
+
+.bar-value {
+  font-size: 10px;
+  color: white;
+  margin-top: -20px;
+  font-weight: bold;
+}
