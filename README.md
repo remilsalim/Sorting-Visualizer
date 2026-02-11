@@ -2,8 +2,6 @@
 
 A high-performance, interactive React application that visually demonstrates the internal mechanics of various sorting algorithms. Designed for precision, clarity, and portfolio presentation.
 
-![Home Page Mockup](file:///c:/Users/hp/Desktop/hobby/Sorting%20algorithm/public/vite.svg) *[Replace with actual screenshot after deployment]*
-
 ## 🚀 Features
 
 - **7 Core Algorithms**: 
